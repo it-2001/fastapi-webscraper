@@ -5,7 +5,7 @@ Contents are then read into fastapi database runniong on port 8000.
 
 ## how to use
 ### load contents
-python3 craper.py {months}
+py craper.py {months}
 
 - {months} how many months will be scraped, defaults to 15
 - wait until program finishes
