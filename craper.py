@@ -1,8 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import sys
+
 
 MONTHS = 15
+
+if len(sys.argv) > 1:
+    arg = sys.argv[1]
+    MONTHS = int(arg)
+
 
 def scrape():
     URL = "https://blog.iservery.com/"
