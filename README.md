@@ -1,7 +1,7 @@
 # fastapi-webscraper
 
 script for scraping contents of Iservery blog https://blog.iservery.com/ and saving them into json file.
-Contents are then read into fastapi database runniong on port 8000.
+Contents are then read into fastapi database running on port 8000.
 
 ## how to use
 ### load contents
